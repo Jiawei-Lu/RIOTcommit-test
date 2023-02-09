@@ -1,0 +1,25 @@
+BOARD_INSUFFICIENT_MEMORY := \
+    airfy-beacon \
+    arduino-duemilanove \
+    arduino-leonardo \
+    arduino-nano \
+    arduino-uno \
+    atmega328p \
+    cc2650stk \
+    maple-mini \
+    mbed_lpc1768 \
+    microbit \
+    nrf51dongle \
+    nrf6310 \
+    nucleo-f031k6 \
+    nucleo-f042k6 \
+    opencm9-04 \
+    pca10000 \
+    pca10005 \
+    spark-core \
+    stk3200 \
+    stm32f030f4-demo \
+    stm32f0discovery \
+    weio \
+    yunjia-nrf51822 \
+    #

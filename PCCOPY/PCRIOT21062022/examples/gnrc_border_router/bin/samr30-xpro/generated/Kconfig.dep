@@ -1,0 +1,405 @@
+config USEMODULE_AT86RF212B
+	bool
+	default y
+config USEMODULE_AT86RF2XX
+	bool
+	default y
+config USEMODULE_AUTO_INIT
+	bool
+	default y
+config USEMODULE_AUTO_INIT_AT86RF2XX
+	bool
+	default y
+config USEMODULE_AUTO_INIT_GNRC_IPV6
+	bool
+	default y
+config USEMODULE_AUTO_INIT_GNRC_IPV6_NIB
+	bool
+	default y
+config USEMODULE_AUTO_INIT_GNRC_NETIF
+	bool
+	default y
+config USEMODULE_AUTO_INIT_GNRC_PKTBUF
+	bool
+	default y
+config USEMODULE_AUTO_INIT_GNRC_RPL
+	bool
+	default y
+config USEMODULE_AUTO_INIT_GNRC_SIXLOWPAN
+	bool
+	default y
+config USEMODULE_AUTO_INIT_GNRC_UDP
+	bool
+	default y
+config USEMODULE_AUTO_INIT_GNRC_UHCPC
+	bool
+	default y
+config USEMODULE_AUTO_INIT_RANDOM
+	bool
+	default y
+config USEMODULE_AUTO_INIT_XTIMER
+	bool
+	default y
+config USEMODULE_BOARD
+	bool
+	default y
+config USEMODULE_CORE
+	bool
+	default y
+config USEMODULE_CORE_INIT
+	bool
+	default y
+config USEMODULE_CORE_MBOX
+	bool
+	default y
+config USEMODULE_CORE_MSG
+	bool
+	default y
+config USEMODULE_CORE_PANIC
+	bool
+	default y
+config USEMODULE_CORTEXM_COMMON
+	bool
+	default y
+config USEMODULE_CORTEXM_COMMON_PERIPH
+	bool
+	default y
+config USEMODULE_CPU
+	bool
+	default y
+config USEMODULE_DIV
+	bool
+	default y
+config USEMODULE_ETHOS
+	bool
+	default y
+config USEMODULE_EUI_PROVIDER
+	bool
+	default y
+config USEMODULE_EVTIMER
+	bool
+	default y
+config USEMODULE_FMT
+	bool
+	default y
+config USEMODULE_GNRC
+	bool
+	default y
+config USEMODULE_GNRC_ICMPV6
+	bool
+	default y
+config USEMODULE_GNRC_ICMPV6_ECHO
+	bool
+	default y
+config USEMODULE_GNRC_IPV6
+	bool
+	default y
+config USEMODULE_GNRC_IPV6_HDR
+	bool
+	default y
+config USEMODULE_GNRC_IPV6_NIB
+	bool
+	default y
+config USEMODULE_GNRC_IPV6_NIB_6LBR
+	bool
+	default y
+config USEMODULE_GNRC_IPV6_NIB_6LN
+	bool
+	default y
+config USEMODULE_GNRC_IPV6_NIB_6LR
+	bool
+	default y
+config USEMODULE_GNRC_IPV6_NIB_ROUTER
+	bool
+	default y
+config USEMODULE_GNRC_IPV6_ROUTER
+	bool
+	default y
+config USEMODULE_GNRC_IPV6_ROUTER_DEFAULT
+	bool
+	default y
+config USEMODULE_GNRC_NDP
+	bool
+	default y
+config USEMODULE_GNRC_NETAPI
+	bool
+	default y
+config USEMODULE_GNRC_NETAPI_MBOX
+	bool
+	default y
+config USEMODULE_GNRC_NETDEV_DEFAULT
+	bool
+	default y
+config USEMODULE_GNRC_NETIF
+	bool
+	default y
+config USEMODULE_GNRC_NETIF_6LO
+	bool
+	default y
+config USEMODULE_GNRC_NETIF_ETHERNET
+	bool
+	default y
+config USEMODULE_GNRC_NETIF_HDR
+	bool
+	default y
+config USEMODULE_GNRC_NETIF_IEEE802154
+	bool
+	default y
+config USEMODULE_GNRC_NETIF_INIT_DEVS
+	bool
+	default y
+config USEMODULE_GNRC_NETIF_IPV6
+	bool
+	default y
+config USEMODULE_GNRC_NETREG
+	bool
+	default y
+config USEMODULE_GNRC_NETTYPE_ICMPV6
+	bool
+	default y
+config USEMODULE_GNRC_NETTYPE_IPV6
+	bool
+	default y
+config USEMODULE_GNRC_NETTYPE_SIXLOWPAN
+	bool
+	default y
+config USEMODULE_GNRC_NETTYPE_UDP
+	bool
+	default y
+config USEMODULE_GNRC_PKT
+	bool
+	default y
+config USEMODULE_GNRC_PKTBUF
+	bool
+	default y
+config USEMODULE_GNRC_PKTBUF_STATIC
+	bool
+	default y
+config USEMODULE_GNRC_RPL
+	bool
+	default y
+config USEMODULE_GNRC_SIXLOWPAN
+	bool
+	default y
+config USEMODULE_GNRC_SIXLOWPAN_BORDER_ROUTER_DEFAULT
+	bool
+	default y
+config USEMODULE_GNRC_SIXLOWPAN_CTX
+	bool
+	default y
+config USEMODULE_GNRC_SIXLOWPAN_FRAG
+	bool
+	default y
+config USEMODULE_GNRC_SIXLOWPAN_FRAG_FB
+	bool
+	default y
+config USEMODULE_GNRC_SIXLOWPAN_FRAG_RB
+	bool
+	default y
+config USEMODULE_GNRC_SIXLOWPAN_IPHC
+	bool
+	default y
+config USEMODULE_GNRC_SIXLOWPAN_IPHC_NHC
+	bool
+	default y
+config USEMODULE_GNRC_SIXLOWPAN_ND
+	bool
+	default y
+config USEMODULE_GNRC_SIXLOWPAN_ROUTER_DEFAULT
+	bool
+	default y
+config USEMODULE_GNRC_SOCK
+	bool
+	default y
+config USEMODULE_GNRC_SOCK_UDP
+	bool
+	default y
+config USEMODULE_GNRC_UDP
+	bool
+	default y
+config USEMODULE_GNRC_UHCPC
+	bool
+	default y
+config USEMODULE_ICMPV6
+	bool
+	default y
+config USEMODULE_IEEE802154
+	bool
+	default y
+config USEMODULE_INET_CSUM
+	bool
+	default y
+config USEMODULE_IOLIST
+	bool
+	default y
+config USEMODULE_IPV6_ADDR
+	bool
+	default y
+config USEMODULE_IPV6_HDR
+	bool
+	default y
+config USEMODULE_ISRPIPE
+	bool
+	default y
+config USEMODULE_L2UTIL
+	bool
+	default y
+config USEMODULE_LUID
+	bool
+	default y
+config USEMODULE_NETDEV
+	bool
+	default y
+config USEMODULE_NETDEV_DEFAULT
+	bool
+	default y
+config USEMODULE_NETDEV_ETH
+	bool
+	default y
+config USEMODULE_NETDEV_IEEE802154
+	bool
+	default y
+config USEMODULE_NETDEV_IEEE802154_OQPSK
+	bool
+	default y
+config USEMODULE_NETDEV_REGISTER
+	bool
+	default y
+config USEMODULE_NETIF
+	bool
+	default y
+config USEMODULE_NETSTATS
+	bool
+	default y
+config USEMODULE_NETSTATS_RPL
+	bool
+	default y
+config USEMODULE_NEWLIB
+	bool
+	default y
+config USEMODULE_NEWLIB_NANO
+	bool
+	default y
+config USEMODULE_NEWLIB_SYSCALLS_DEFAULT
+	bool
+	default y
+config USEMODULE_PERIPH
+	bool
+	default y
+config USEMODULE_PERIPH_COMMON
+	bool
+	default y
+config USEMODULE_PERIPH_CPUID
+	bool
+	default y
+config USEMODULE_PERIPH_GPIO
+	bool
+	default y
+config USEMODULE_PERIPH_GPIO_IRQ
+	bool
+	default y
+config USEMODULE_PERIPH_INIT
+	bool
+	default y
+config USEMODULE_PERIPH_INIT_CPUID
+	bool
+	default y
+config USEMODULE_PERIPH_INIT_GPIO
+	bool
+	default y
+config USEMODULE_PERIPH_INIT_GPIO_IRQ
+	bool
+	default y
+config USEMODULE_PERIPH_INIT_PM
+	bool
+	default y
+config USEMODULE_PERIPH_INIT_SPI
+	bool
+	default y
+config USEMODULE_PERIPH_INIT_TIMER
+	bool
+	default y
+config USEMODULE_PERIPH_INIT_UART
+	bool
+	default y
+config USEMODULE_PERIPH_PM
+	bool
+	default y
+config USEMODULE_PERIPH_SPI
+	bool
+	default y
+config USEMODULE_PERIPH_TIMER
+	bool
+	default y
+config USEMODULE_PERIPH_UART
+	bool
+	default y
+config USEMODULE_PM_LAYERED
+	bool
+	default y
+config USEMODULE_POSIX_HEADERS
+	bool
+	default y
+config USEMODULE_POSIX_INET
+	bool
+	default y
+config USEMODULE_PRNG
+	bool
+	default y
+config USEMODULE_PRNG_TINYMT32
+	bool
+	default y
+config USEMODULE_PS
+	bool
+	default y
+config USEMODULE_RANDOM
+	bool
+	default y
+config USEMODULE_SAM0_COMMON_PERIPH
+	bool
+	default y
+config USEMODULE_SHELL
+	bool
+	default y
+config USEMODULE_SHELL_COMMANDS
+	bool
+	default y
+config USEMODULE_SIXLOWPAN
+	bool
+	default y
+config USEMODULE_SOCK
+	bool
+	default y
+config USEMODULE_STDIN
+	bool
+	default y
+config USEMODULE_STDIO_ETHOS
+	bool
+	default y
+config USEMODULE_STDIO_UART
+	bool
+	default y
+config USEMODULE_STDIO_UART_RX
+	bool
+	default y
+config USEMODULE_SYS
+	bool
+	default y
+config USEMODULE_TINYMT32
+	bool
+	default y
+config USEMODULE_TRICKLE
+	bool
+	default y
+config USEMODULE_TSRB
+	bool
+	default y
+config USEMODULE_UDP
+	bool
+	default y
+config USEMODULE_UHCPC
+	bool
+	default y
+config USEMODULE_XTIMER
+	bool
+	default y

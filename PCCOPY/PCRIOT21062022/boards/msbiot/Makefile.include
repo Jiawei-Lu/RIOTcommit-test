@@ -1,0 +1,13 @@
+# we use shared STM32 configuration snippets
+INCLUDES += -I$(RIOTBOARD)/common/stm32/include
+
+PROGRAMMER ?= openocd
+
+DEBUG_ADAPTER ?= stlink
+ifeq (openocd,$(PROGRAMMER))
+  STLINK_VERSION ?= 2
+  PORT_LINUX ?= /dev/ttyUSB0
+endif
+
+# Setup of programmer and serial is shared between STM32 based boards
+include $(RIOTMAKE)/boards/stm32.inc.mk

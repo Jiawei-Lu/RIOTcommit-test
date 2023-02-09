@@ -1,0 +1,239 @@
+/home/jiawei/RIOT/tests/mypmtest/bin/samr30-xpro/cpu/vectors.o: \
+ /home/jiawei/RIOT/cpu/saml21/vectors.c \
+ /home/jiawei/RIOT/tests/mypmtest/bin/samr30-xpro/riotbuild/riotbuild.h \
+ /usr/lib/gcc/arm-none-eabi/7.3.1/include/stdint.h \
+ /usr/arm-none-eabi/include/stdint.h \
+ /usr/arm-none-eabi/include/machine/_default_types.h \
+ /usr/arm-none-eabi/include/sys/features.h \
+ /usr/arm-none-eabi/include/_newlib_version.h \
+ /usr/arm-none-eabi/include/sys/_intsup.h \
+ /usr/arm-none-eabi/include/sys/_stdint.h \
+ /home/jiawei/RIOT/cpu/cortexm_common/include/vectors_cortexm.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/cpu_conf.h \
+ /home/jiawei/RIOT/cpu/cortexm_common/include/cpu_conf_common.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/samr30.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/samr30g18a.h \
+ /home/jiawei/RIOT/cpu/cortexm_common/include/vendor/core_cm0plus.h \
+ /home/jiawei/RIOT/cpu/cortexm_common/include/vendor/cmsis_version.h \
+ /home/jiawei/RIOT/cpu/cortexm_common/include/vendor/cmsis_compiler.h \
+ /home/jiawei/RIOT/cpu/cortexm_common/include/vendor/cmsis_gcc.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/ac.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/adc.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/ccl.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/dmac.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/dsu.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/eic.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/evsys.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/gclk.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/mclk.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/mtb.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/nvmctrl.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/oscctrl.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/osc32kctrl.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/pac.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/pm.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/port.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/rstc.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/rtc.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/rfctrl.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/sercom.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/supc.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/tal.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/tc.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/tcc.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/usb.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/wdt.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/ac.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/adc.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/ccl.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/dmac.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/dsu.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/eic.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/evsys.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/gclk.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/mclk.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/mtb.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/nvmctrl.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/oscctrl.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/osc32kctrl.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/pac.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/pm.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/port.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/rstc.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/rtc.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/rfctrl.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/sercom0.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/sercom1.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/sercom2.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/sercom3.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/sercom4.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/sercom5.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/supc.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/tal.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/tc0.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/tc1.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/tc4.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/tcc0.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/tcc1.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/tcc2.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/usb.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/wdt.h \
+ /home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/pio/samr30g18a.h
+
+/home/jiawei/RIOT/tests/mypmtest/bin/samr30-xpro/riotbuild/riotbuild.h:
+
+/usr/lib/gcc/arm-none-eabi/7.3.1/include/stdint.h:
+
+/usr/arm-none-eabi/include/stdint.h:
+
+/usr/arm-none-eabi/include/machine/_default_types.h:
+
+/usr/arm-none-eabi/include/sys/features.h:
+
+/usr/arm-none-eabi/include/_newlib_version.h:
+
+/usr/arm-none-eabi/include/sys/_intsup.h:
+
+/usr/arm-none-eabi/include/sys/_stdint.h:
+
+/home/jiawei/RIOT/cpu/cortexm_common/include/vectors_cortexm.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/cpu_conf.h:
+
+/home/jiawei/RIOT/cpu/cortexm_common/include/cpu_conf_common.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/samr30.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/samr30g18a.h:
+
+/home/jiawei/RIOT/cpu/cortexm_common/include/vendor/core_cm0plus.h:
+
+/home/jiawei/RIOT/cpu/cortexm_common/include/vendor/cmsis_version.h:
+
+/home/jiawei/RIOT/cpu/cortexm_common/include/vendor/cmsis_compiler.h:
+
+/home/jiawei/RIOT/cpu/cortexm_common/include/vendor/cmsis_gcc.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/ac.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/adc.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/ccl.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/dmac.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/dsu.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/eic.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/evsys.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/gclk.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/mclk.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/mtb.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/nvmctrl.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/oscctrl.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/osc32kctrl.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/pac.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/pm.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/port.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/rstc.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/rtc.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/rfctrl.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/sercom.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/supc.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/tal.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/tc.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/tcc.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/usb.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/component/wdt.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/ac.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/adc.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/ccl.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/dmac.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/dsu.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/eic.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/evsys.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/gclk.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/mclk.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/mtb.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/nvmctrl.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/oscctrl.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/osc32kctrl.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/pac.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/pm.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/port.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/rstc.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/rtc.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/rfctrl.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/sercom0.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/sercom1.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/sercom2.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/sercom3.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/sercom4.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/sercom5.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/supc.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/tal.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/tc0.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/tc1.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/tc4.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/tcc0.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/tcc1.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/tcc2.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/usb.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/instance/wdt.h:
+
+/home/jiawei/RIOT/cpu/sam0_common/include/vendor/samr30/include/pio/samr30g18a.h:

@@ -1,0 +1,23 @@
+# Copyright (c) 2019 HAW Hamburg
+#
+# This file is subject to the terms and conditions of the GNU Lesser
+# General Public License v2.1. See the file LICENSE in the top level
+# directory for more details.
+#
+menu "System"
+
+rsource "auto_init/Kconfig"
+rsource "net/Kconfig"
+rsource "Kconfig.newlib"
+rsource "Kconfig.stdio"
+rsource "pm_layered/Kconfig"
+rsource "usb/Kconfig"
+
+config MODULE_SYS
+    bool
+    default y
+    depends on TEST_KCONFIG
+    help
+        System module, it serves to pull in all the rest of system modules.
+
+endmenu # System
